@@ -1,0 +1,78 @@
+.card-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+
+.card {
+  transform-style: preserve-3d;
+
+  height: 40rem;
+  width: 25rem;
+
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+}
+
+.card-image-container {
+  transition: all 0.5s ease;
+  overflow: hidden;
+  height: 25rem;
+}
+
+.card-image {
+  width: 25rem;
+}
+
+.card-info {
+  perspective: 1000px;
+  padding: 0.5rem;
+}
+
+.card-title {
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  font-size: 1.2rem;
+}
+
+.card-price {
+  transition: all 0.5s ease;
+}
+
+.card-button {
+    transition: all 0.5s ease;
+
+  display: flex;
+  flex: 1;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-button > a {
+    transition: all 0.5s ease;
+
+  width: 75%;
+  height: 75%;
+  border-radius: 0.5rem;
+  background: linear-gradient(to right, #f57b51, #fbbc58);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-button > a:hover {
+    transition: all 0.5s ease;
+
+  text-decoration: none;
+}
+
+.card-button > a > p {
+  transition: all 0.5s ease;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
